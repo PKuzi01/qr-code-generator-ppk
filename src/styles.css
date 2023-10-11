@@ -1,0 +1,46 @@
+/* styles for the overall page */
+backgorund {
+    background-color: beige;
+}
+
+/* styles for Header component */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* styles for QRCodeGenerator component */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
